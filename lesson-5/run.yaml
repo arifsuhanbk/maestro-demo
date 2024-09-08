@@ -1,0 +1,5 @@
+appId: ${APPID}
+---
+- runFlow: utils/setup_env.yaml
+- runFlow: feature/launch/run_launch.yaml
+- runFlow: feature/login/run_login.yaml

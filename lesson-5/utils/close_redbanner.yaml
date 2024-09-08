@@ -1,0 +1,4 @@
+appId: ${APPID}
+---
+- tapOn:
+    id: "android:id/content"

@@ -1,0 +1,9 @@
+appId: ${APPID}
+---
+- tapOn: "XXXXX"
+- tapOn: "1"
+- tapOn: "2"
+- tapOn: "1"
+- tapOn: "2"
+- tapOn: "1"
+- tapOn: "নিশ্চিত করুন"

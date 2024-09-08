@@ -3,6 +3,13 @@
 ### This repo covers:
 1. Installation (Maestro CLI, Maestro Studio)
 2. Writing Tests (Step by Step writing Testcases for Beginners)
+    |  No | Directory  |  Coverage                            |
+    |-----|------------|--------------------------------------|
+    | 1   | lesson-1   | Happy cases for App Launch and Login |
+    | 2   | lesson-2   | usage of multiple yaml file          |
+    | 3   | lesson-3   | Add multiple cases for Feature Login |
+    | 4   | lesson-4   | Test Data Load, Page Model, Assertion|
+    | 5   | lesson-5   | Integrated Testrail for Reporting    |
 3. Running Tests (Run Testcases for Specific Device & Integrate with Testrail TestRun )
 
 ### Details:

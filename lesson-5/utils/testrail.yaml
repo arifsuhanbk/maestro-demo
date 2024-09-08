@@ -1,0 +1,10 @@
+appId: ${APPID}
+---
+- runScript:
+    when:
+      visible: "${output.assertText}"
+    file: ../scripts/test_passed.js
+- runScript:
+    when:
+      notVisible: "${output.assertText}"
+    file: ../scripts/test_failed.js

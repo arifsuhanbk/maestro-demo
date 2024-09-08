@@ -1,0 +1,10 @@
+appId: ${APPID}
+---
+- launchApp
+- waitForAnimationToEnd
+
+# testrail integrate
+- evalScript: ${output.testID = output.testSuite.testID_launch }
+- evalScript: ${output.assertText = output.testSuite.assertText_launch}
+- evalScript: ${output.testcase_name = output.testSuite.testcase_title_launch}
+- runFlow: "../../utils/testrail.yaml"

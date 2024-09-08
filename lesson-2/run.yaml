@@ -1,0 +1,4 @@
+appId: com.bKash.merchantapp.uat
+---
+- runFlow: launch.yaml
+- runFlow: login.yaml

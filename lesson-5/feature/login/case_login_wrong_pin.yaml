@@ -1,0 +1,18 @@
+appId: ${APPID}
+---
+- tapOn: "XXXXX"
+- tapOn: "1"
+- tapOn: "5"
+- tapOn: "1"
+- tapOn: "5"
+- tapOn: "1"
+- tapOn: "নিশ্চিত করুন"
+- waitForAnimationToEnd
+
+# testrail integrate
+- evalScript: ${output.testID = output.testSuite.testID_login_wrong_pin }
+- evalScript: ${output.assertText = output.testSuite.assertText_login_wrong_pin}
+- evalScript: ${output.testcase_name = output.testSuite.testcase_title_login_wrong_pin}
+- runFlow: "../../utils/testrail.yaml"
+
+- runFlow: ../../utils/close_redbanner.yaml

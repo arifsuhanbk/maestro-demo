@@ -1,0 +1,8 @@
+appId: APPID
+---
+
+# case wrong PIN
+- runFlow: case_login_wrong_pin.yaml
+
+# case: correct PIN
+- runFlow: case_login_correct_pin.yaml

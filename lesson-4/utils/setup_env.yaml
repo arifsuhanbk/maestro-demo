@@ -1,0 +1,9 @@
+appId: ${APPID}
+---
+- runScript:
+    file: ../scripts/test_data.js
+    env:
+       envName: '${ENV}'
+       productName: '${PRODUCT}'
+- runScript: ../scripts/login.js
+- runScript: ../scripts/testsuite.js

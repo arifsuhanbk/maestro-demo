@@ -1,0 +1,5 @@
+appId: ${APPID}
+---
+- runFlow: case_login_wrong_pin.yaml
+- runFlow: ../../utils/close_redbanner.yaml
+- runFlow: case_login_correct_pin.yaml

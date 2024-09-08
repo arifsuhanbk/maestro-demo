@@ -1,0 +1,10 @@
+appId: ${APPID}
+---
+- tapOn: "XXXXX"
+- tapOn: "1"
+- tapOn: "5"
+- tapOn: "1"
+- tapOn: "5"
+- tapOn: "1"
+- tapOn: "নিশ্চিত করুন"
+- waitForAnimationToEnd

@@ -1,0 +1,19 @@
+appId: ${APPID}
+---
+- assertVisible:
+    text: "XXXXX"
+    enabled: true
+- tapOn: "XXXXX"
+- tapOn: "1"
+- tapOn: "3"
+- tapOn: "1"
+- tapOn: "3"
+- tapOn: "1"
+- tapOn: "নিশ্চিত করুন"
+- waitForAnimationToEnd
+
+# testrail integrate
+- evalScript: ${output.testID = output.testSuite.testID_login_correct_pin }
+- evalScript: ${output.assertText = output.testSuite.assertText_login_correct_pin}
+- evalScript: ${output.testcase_name = output.testSuite.testcase_title_login_correct_pin}
+- runFlow: "../../utils/testrail.yaml"
